@@ -11,6 +11,7 @@
 
  a {
      text-decoration: none;
+     text-align: center;
  }
 
  .container {
@@ -19,7 +20,9 @@
      display: flex;
      align-items: center;
      justify-content: center;
+     text-align: center;
  }
+
 
  #top {
      background-image: url("images/bg-1.jpg");
@@ -46,16 +49,44 @@
      display: block;
      font-size: 60px;
      color: white;
-
  }
 
  #top small {
      color: white;
+     text-align: center;
  }
 
  #top p {
      margin-top: 30px;
      color: white;
+ }
+
+ .text {
+     width: 40%;
+     margin-left: 30%;
+     margin-right: 30%;
+     color: rgb(112, 105, 105);
+     text-align: center;
+     margin-bottom: 8px;
+     margin-top: 8px;
+ }
+
+ .line {
+     width: 40%;
+     border: 1px solid rgb(102, 98, 98);
+     color: rgb(126, 121, 121);
+     margin-left: 30%;
+     margin-right: 30%;
+ }
+
+ .btn {
+     display: inline-block;
+     padding: 10px 30px;
+     text-transform: uppercase;
+     background-color: darkorange;
+     color: azure;
+     border-radius: 5px;
+     margin-top: 10px;
  }
 
  #top .btn {
@@ -65,5 +96,48 @@
      background-color: darkorange;
      color: azure;
      border-radius: 5px;
-     margin-top: 30px;
+     margin-top: 50px;
+ }
+
+ #information {
+     width: 90%;
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+
+ #information h1 {
+     display: block;
+     font-size: 60px;
+     color: burlywood;
+     margin-bottom: 30px;
+ }
+
+ #information .ammount {
+     display: flex;
+
+ }
+
+ .taka {
+     width: 80%;
+     height: 100px;
+     background-color: rgb(247, 244, 244);
+     text-align: center;
+     font-weight: 700;
+     margin-left: 2.5%;
+     margin-right: 2.5%;
+     margin-top: 80px;
+     margin-bottom: 80px;
+
+ }
+
+ .taka p {
+     margin-top: 35px;
+     font-weight: 700;
+     font-size: 30px;
+ }
+
+ #information .active {
+     border: 2px solid darkorange;
+     background: rgb(222, 198, 170);
+     color: darkorange;
  }
