@@ -194,3 +194,37 @@
  .plane img {
      margin-bottom: 25px;
  }
+
+ #updates h1 {
+     display: block;
+     font-size: 60px;
+     color: burlywood;
+     margin-bottom: 30px;
+ }
+
+ #updates .form-bg {
+     display: block;
+     background-color: bisque;
+     height: 150px;
+     margin-top: 50px;
+     text-align: center;
+     justify-content: center;
+
+ }
+
+ #updates .email {
+
+     background-color: #d1e0e0;
+     padding: 10px 40px;
+     text-transform: uppercase;
+     color: azure;
+     border-radius: 5px;
+     margin-top: 50px;
+     text-align: left;
+     border-color: none;
+
+ }
+
+ #updates .btn {
+     margin-left: 0;
+ }
