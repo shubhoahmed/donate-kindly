@@ -100,7 +100,7 @@
  }
 
  #information {
-     width: 80%;
+     width: 90%;
      margin-left: 5%;
      margin-right: 5%;
  }
@@ -165,7 +165,7 @@
  #donate-plane .bg-one {
      background-color: #e6f2ff;
      padding: 20px;
-     margin-right: 25px;
+     margin-right: 40px;
      text-align: left;
      padding: 50px 25px 50px;
  }
@@ -173,7 +173,7 @@
  #donate-plane .bg-two {
      background-color: #ffe6ff;
      padding: 20px;
-     margin-right: 25px;
+     margin-right: 40px;
      text-align: left;
      padding: 50px 25px 50px;
  }
@@ -182,7 +182,7 @@
  #donate-plane .bg-three {
      background-color: #ffe6cc;
      padding: 20px;
-     margin-right: 25px;
+     margin-right: 40px;
      text-align: left;
      padding: 50px 25px 50px;
  }
@@ -227,6 +227,45 @@
 
  #updates .btn {
      margin-left: 0;
+ }
+
+
+
+ #blog {
+     width: 90%;
+     margin-left: 5%;
+ }
+
+ #blog .blog-part {
+     width: 50%;
+     margin-left: 5%;
+     margin-right: 5%;
+
+ }
+
+ #blog h1 {
+     display: block;
+     font-size: 40px;
+     color: burlywood;
+     margin-bottom: 30px;
+ }
+
+ #blog h3 {
+     display: block;
+     font-size: 25px;
+     color: rgb(232, 199, 156);
+     margin-bottom: 30px;
+ }
+
+ #blog .blog-part img {
+     width: 100%;
+     border: 1p springgreen lightgrey;
+     border-radius: 10px;
+
+ }
+
+ #blog .btn {
+     margin-top: 30px;
  }
 
  footer {
