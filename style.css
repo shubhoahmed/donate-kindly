@@ -228,3 +228,17 @@
  #updates .btn {
      margin-left: 0;
  }
+
+ footer {
+     background-color: #262626;
+     text-align: center;
+     color: bisque;
+     height: 170px;
+ }
+
+ footer h1 {
+     padding: 35px;
+     color: #e6005c;
+     font-family: 'Arima', cursive;
+
+ }
