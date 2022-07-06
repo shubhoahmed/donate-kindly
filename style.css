@@ -100,7 +100,7 @@
  }
 
  #information {
-     width: 90%;
+     width: 80%;
      margin-left: 5%;
      margin-right: 5%;
  }
@@ -140,4 +140,57 @@
      border: 2px solid darkorange;
      background: rgb(222, 198, 170);
      color: darkorange;
+ }
+
+ #donate-plane {
+     width: 90%;
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+
+ #donate-plane h1 {
+     display: block;
+     font-size: 60px;
+     color: burlywood;
+     margin-bottom: 30px;
+ }
+
+ #donate-plane .plane {
+     display: flex;
+     margin-top: 50px;
+     padding: 20px;
+
+ }
+
+ #donate-plane .bg-one {
+     background-color: #e6f2ff;
+     padding: 20px;
+     margin-right: 25px;
+     text-align: left;
+     padding: 50px 25px 50px;
+ }
+
+ #donate-plane .bg-two {
+     background-color: #ffe6ff;
+     padding: 20px;
+     margin-right: 25px;
+     text-align: left;
+     padding: 50px 25px 50px;
+ }
+
+
+ #donate-plane .bg-three {
+     background-color: #ffe6cc;
+     padding: 20px;
+     margin-right: 25px;
+     text-align: left;
+     padding: 50px 25px 50px;
+ }
+
+ .plane h2 {
+     margin-bottom: 25px;
+ }
+
+ .plane img {
+     margin-bottom: 25px;
  }
